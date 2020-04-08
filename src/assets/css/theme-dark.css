@@ -4,6 +4,12 @@
  * Custom variables followed by Dashkit variables followed by Bootstrap variables
  * to ensure cascade of styles.
  */
+.navbar-light .navbar-user-link {
+  color: #2C7BE5; }
+
+.navbar-light .navbar-user-link:hover, .navbar-light .navbar-user-link:focus {
+  color: #12263F; }
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -10954,3 +10960,9 @@ a:focus, button:focus {
 .select2-container--default .select2-selection--multiple,
 .select2-container--default .select2-search--dropdown .select2-search__field {
   border-color: #1E3A5C; }
+
+.navbar-light .navbar-user-link {
+  color: #2C7BE5; }
+
+.navbar-light .navbar-user-link:hover, .navbar-light .navbar-user-link:focus {
+  color: #12263F; }

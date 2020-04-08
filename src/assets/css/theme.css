@@ -1,9 +1,15 @@
 /**
- * Aircrft v1.4.2
+ * Dashkit v1.4.2
  *
  * Custom variables followed by Dashkit variables followed by Bootstrap variables
  * to ensure cascade of styles.
  */
+.navbar-light .navbar-user-link {
+  color: #2C7BE5; }
+
+.navbar-light .navbar-user-link:hover, .navbar-light .navbar-user-link:focus {
+  color: #12263F; }
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -10903,3 +10909,9 @@ a:focus, button:focus {
 
 .is-invalid ~ .select2 .select2-selection {
   border-color: #E63757 !important; }
+
+.navbar-light .navbar-user-link {
+  color: #2C7BE5; }
+
+.navbar-light .navbar-user-link:hover, .navbar-light .navbar-user-link:focus {
+  color: #12263F; }
