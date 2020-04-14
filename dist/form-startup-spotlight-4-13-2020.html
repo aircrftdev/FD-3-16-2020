@@ -5345,7 +5345,7 @@
             </div>
 
             <!-- Form -->
-            <form class="mb-4"> <form name="Aircrft Startup Spotlight Form 4-13-2020" method="POST" data-netlify="true"></form>
+            <form class="mb-4" name="Aircrft Startup Spotlight Form 4-13-2020" method="POST" data-netlify="true"> 
 
               <!-- Team name -->
               <div class="form-group">
@@ -5447,15 +5447,11 @@
               <hr class="mt-5 mb-5">
 
                 <!-- Buttons -->
-                <p>
-                    <button type="submit" class="btn btn-block btn-primary">Send</button>
-                </p>
+                <input type="submit" value="Submit" class="btn btn-block btn-primary">
                 
                 </div>
               </div>
-
-              
-                                
+                               
                   <!-- Private team 
                   <div class="form-group">
                     <label class="mb-1">
@@ -5503,6 +5499,27 @@
           </div>
         </div> <!-- / .row -->
       </div>
+
+      <form name="netlify-contact-forms-test-1" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Your Role: <select name="role[]" multiple>
+              <option value="leader">Leader</option>
+              <option value="follower">Follower</option>
+            </select></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
       
     </div> <!-- / .main-content -->
 
